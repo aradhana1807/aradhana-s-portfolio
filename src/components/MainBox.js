@@ -1,26 +1,17 @@
-import '../index.css'
+// import React, { useEffect, useState } from 'react';
+import '../index.css';
+import About from './About';
+import Experience from './Experience';
+import Cover from './Cover';
 
 const MainBox = () => {
-
     return (
         <div className='main-box'>
-
-            <div className='content-box'>
-                <div className='intro-box'>
-                    <h1>hi , i am aradhana nayak</h1>
-                    <p>
-                        Frontend Developer
-                    </p>
-                </div>
-
-                <div className='photo-box'>
-                    <img src={require('./images/aradhana.jpg')} alt='aradhana' />
-                </div>
-
-            </div>
-
+            <Cover />
+            <About />
+            <Experience />
         </div>
     );
-}
+};
 
 export default MainBox;
