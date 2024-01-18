@@ -22,10 +22,20 @@ body {
   overflow: hidden;
   transition: all 0.3s ease;
 }
+@media screen and (max-width: 940px) {
+  .main-box {
+    padding: 120px 120px;
+  }
+}
 
-@media screen and (max-width: 720px) {
-  .main-box{
+@media screen and (max-width: 740px) {
+  .main-box {
     padding: 100px 100px;
   }
 }
 
+@media screen and (max-width: 645px) {
+  .main-box {
+    padding: 90px 70px;
+  }
+}
