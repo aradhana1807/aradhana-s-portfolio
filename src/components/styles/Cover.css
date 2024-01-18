@@ -50,7 +50,18 @@
 
 /*---------- 720px ---------- */
 
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 740px) {
+  .content-box {
+    align-items: center;
+  }
+
+  .intro-box {
+    max-width: 80%;
+  }
+
+  .content {
+    font-size: 23px;
+  }
 }
 /* ----------480px----------- */
 
