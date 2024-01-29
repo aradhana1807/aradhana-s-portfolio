@@ -6,16 +6,6 @@ a {
   transition: color 0.3s ease;
 }
 
-a:hover {
-  color: #ca3e47 !important;
-}
-
-a:visited {
-  color: inherit;
-  background-color: transparent;
-  text-decoration: none;
-}
-
 li {
   list-style: none;
 }

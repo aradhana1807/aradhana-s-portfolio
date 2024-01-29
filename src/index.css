@@ -18,11 +18,11 @@ body {
 }
 
 a {
-  color: your_desired_color;
   text-decoration: none;
 }
 
 a:visited {
+  text-decoration: none;
   color: #652025;
 }
 
