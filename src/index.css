@@ -23,9 +23,13 @@ a {
 
 a:visited {
   text-decoration: none;
-  color: #652025;
+  color: #983037;
 }
 
 a:hover {
   color: #ca3e47;
+}
+
+a:focus {
+  outline: none;
 }
