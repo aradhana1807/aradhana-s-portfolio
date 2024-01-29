@@ -1,75 +1,96 @@
-.workExp-container {
-  max-width: 1000px;
-  margin: 0 auto;
-  min-height: 100vh;
+.experience {
+  padding: 110px 85px 0px;
 }
 
-.workExp-container h2 {
-  font-size: 45px;
+.experience h3 {
+  font-size: 40px;
+  margin-top: 5px;
 }
 
-.workExp-info {
+.experience .experience-items {
   display: flex;
-  flex-direction: column;
-  align-items: left;
-  justify-self: center;
+  margin-top: 70px;
+  gap: 15px;
 }
 
-.workExp-company {
-  padding: 20px 0px;
+.experience .experience-items .item {
+  background-color: #212121ca;
+  width: 50%;
+  border-radius: 10px;
+  padding: 32px;
+  border-bottom: 4px solid transparent;
+  cursor: pointer;
+  transition: all 0.3s ease;
 }
 
-.workExp-company h3 {
-  font-size: 25px;
+.experience .experience-items .item:hover {
+  border-color: #a72927;
 }
 
-.workExp-company p {
-  padding: 2px 0px;
-  font-size: 20px;
-  word-wrap: break-word;
+.experience .experience-items .item .icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #1e1d1d;
+  width: 46px;
+  height: 46px;
+  border-radius: 5px;
+  margin-bottom: 22px;
+  box-shadow: 0 0 16px rgba(0, 0, 0, 0.1);
 }
 
-.workExp-company span {
-  color: #ab2d2d;
+.experience .experience-items .item .icon i {
+  font-size: 26px;
+  color: #c75050;
 }
 
-.company-links {
-  display: inline-block;
-  color: #d53131;
-  text-decoration: none;
+.experience .experience-items .item h4 {
+  font-size: 18px;
 }
 
-.company-links::after {
-  content: "";
-  display: block;
-  width: 0;
-  height: 1px;
-  background: #bf3131;
-  transition: width 0.3s;
+.experience .experience-items .item p {
+  margin-top: 20px;
+  font-size: 18px;
+  line-height: 22px;
 }
 
-.company-links:hover::after {
-  width: 100%;
+.experience .experience-items .item p span {
+  color: #c75050;
 }
 
-@media screen and (max-width: 940px) {
-  .workExp-container h2 {
-    font-size: 40px;
+@media screen and (max-width: 1200px) {
+  .experience .experience-items {
+    gap: 10px;
+    justify-content: space-between;
+    flex-wrap: wrap;
   }
 
-  .workExp-company p {
-    padding: 2px 0px;
-    font-size: 18px;
-    word-wrap: break-word;
+  .experience .experience-items .item {
+    width: 48%;
+  }
+
+  .experience h3 {
+    font-size: 32px;
   }
 }
 
-@media screen and (max-width: 720px) {
-  .workExp-container h2 {
-    font-size: 38px;
+@media screen and (max-width: 992px) {
+  .experience .experience-items {
+    flex-direction: column;
   }
 
-  .workExp-company h3 {
-    font-size: 22px;
+  .experience .experience-items .item {
+    width: 100%;
+    gap: 10px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .experience {
+    padding: 85px 42px 0;
+  }
+
+  .experience .experience-items {
+    gap: 9px;
   }
 }

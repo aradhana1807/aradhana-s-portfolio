@@ -9,41 +9,10 @@
   -webkit-tap-highlight-color: transparent;
 }
 
+html {
+  scroll-behavior: smooth;
+}
 body {
   background: #1c1918;
   color: #d9cdbf;
-}
-
-.main-box {
-  margin: 0px auto;
-  width: 100%;
-  max-width: 1600px;
-  padding: 150px 150px;
-  overflow: hidden;
-  transition: all 0.3s ease;
-}
-
-@media screen and (max-width: 940px) {
-  .main-box {
-    padding: 120px 120px;
-  }
-}
-
-@media screen and (max-width: 740px) {
-  .main-box {
-    padding: 100px 100px;
-  }
-}
-
-@media screen and (max-width: 645px) {
-  .main-box {
-    padding: 90px 70px;
-  }
-}
-
-
-@media screen and (max-width: 540px) {
-  .main-box {
-    padding: 105px 50px;
-  }
 }

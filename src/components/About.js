@@ -1,12 +1,12 @@
 import React from "react";
-import portfolioImg from './images/aradhana-circle.png';
+import portfolioImg from './images/aradhana-sqaure.jpg';
 import '../components/styles/About.css';
 
 const About = () => {
     return (
         <div className="about-me" id="about">
             <h2>About Me</h2>
-
+            {/* about-me-container */}
             <div className="about-container">
                 <div className="about-me-content">
                     <p>
@@ -37,7 +37,7 @@ const About = () => {
                     <img src={portfolioImg} alt='aradhana' />
                 </div>
             </div>
-
+            {/* end of about-me */}
         </div>
 
     );

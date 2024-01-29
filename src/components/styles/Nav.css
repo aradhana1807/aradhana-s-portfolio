@@ -1,0 +1,146 @@
+a {
+  text-decoration: none;
+  font-size: 16px;
+  letter-spacing: 1px;
+  font-weight: 600;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #ca3e47 !important;
+}
+
+a:visited {
+  color: inherit;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+nav {
+  position: sticky;
+  top: 0;
+  padding: 0 85px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 80px;
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  background-color: rgb(28, 25, 24, 0.8);
+  box-shadow: 0 5px 80px rgba(0, 0, 0, 0.1);
+}
+
+nav .logo,
+footer .logo {
+  display: flex;
+  align-items: center;
+}
+
+nav .logo img,
+footer .logo img {
+  width: 40px;
+  height: 40px;
+}
+
+nav ul,
+footer .top ul {
+  display: flex;
+  gap: 40px;
+}
+
+nav button {
+  color: #a72927;
+  background-color: transparent;
+  font-size: 16px;
+  padding: 12px 16px;
+  border-radius: 5px;
+  border: 1px solid #a72927;
+  cursor: pointer;
+  transition: all 0.3 ease;
+}
+
+nav button:hover {
+  background-color: #922a2a;
+  color: #fff;
+}
+
+nav button#menuButton {
+  display: none;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  padding: 7px;
+}
+
+@media screen and (max-width: 992px) {
+  nav button {
+    display: none;
+  }
+
+  nav ul {
+    gap: 20px;
+  }
+
+  nav ul li a {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  nav {
+    justify-content: space-between;
+    padding: 0 42px;
+  }
+
+  nav ul {
+    display: none;
+  }
+
+  nav.open .logo {
+    display: none;
+  }
+
+  nav.open ul {
+    display: flex;
+  }
+
+  nav button#menuButton {
+    display: flex;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  nav.open .logo {
+    display: flex;
+  }
+
+  nav button#menuButton {
+    float: right;
+    position: sticky;
+  }
+
+  nav.open ul {
+    flex-direction: column;
+    position: absolute;
+    top: 70px;
+    right: 42px;
+    z-index: 100;
+    width: 40%;
+    padding: 10px;
+    align-items: center;
+    background-color: #020000;
+    border-radius: 10px 10px 10px 10px;
+  }
+
+  nav ul {
+    gap: 25px;
+  }
+
+  nav ul li a {
+    font-size: 17px;
+  }
+}

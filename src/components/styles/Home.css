@@ -1,0 +1,90 @@
+.home {
+  padding: 90px 85px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+.home .cover {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+
+.home .cover h2 {
+  font-size: 42px;
+}
+
+.home .cover h3 {
+  margin-top: 5px;
+  font-weight: bold;
+  font-size: 32px;
+}
+
+.home .cover h3 span {
+  color: #a72927;
+}
+
+.home .cover p {
+  font-size: 22px;
+  margin-top: 20px;
+}
+
+.home .cover button {
+  margin-top: 48px;
+  color: #fff;
+  cursor: pointer;
+  background-color: #922a2a;
+  padding: 14px 24px;
+  border: 1px solid transparent;
+  border-radius: 5px;
+}
+
+.home .cover-image img {
+  width: 400px;
+}
+
+@media screen and (max-width: 1200px) {
+  .home .cover h5 {
+    font-size: 18px;
+  }
+
+  .home .cover h3 {
+    font-size: 36px;
+  }
+
+  .home .cover p {
+    font-size: 18px;
+  }
+
+  .home .cover-image img {
+    width: 380px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .home {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .home {
+    padding: 42px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .home .cover h3 {
+    font-size: 32px;
+  }
+
+  .home .cover p {
+    font-size: 16px;
+  }
+
+  .home .cover button {
+    width: 100%;
+  }
+}

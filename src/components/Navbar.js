@@ -17,13 +17,13 @@ const Navbar = () => {
             </div>
             <div className='menu-list'>
                 <Link
-                    activeClass='active' to='about' spy={true} smooth={true} offset={-150} duration={500}
+                    activeClass='active' to='about' spy={true} smooth={true} offset={-125} duration={500}
                     className='menu-list-item' >about</Link>
                 <Link
-                    activeClass='active' to='experience' spy={true} smooth={true} offset={-150} duration={500}
+                    activeClass='active' to='experience' spy={true} smooth={true} offset={-125} duration={500}
                     className='menu-list-item'>experience</Link>
                 <Link
-                    activeClass='active' to='' spy={true} smooth={true} offset={-100} duration={500}
+                    activeClass='active' to='' spy={true} smooth={true} offset={-125} duration={500}
                     className='menu-list-item'>contact</Link>
                 <Link
                     className='menu-list-item' id='resume-button'>Resume</Link>
@@ -39,15 +39,15 @@ const Navbar = () => {
             <div className='mobile-menu-list' style={{ display: showMenu ? 'flex' : 'none' }}>
                 <Link
                     onClick={() => setshowMenu(false)}
-                    activeClass='active' to='about' spy={true} smooth={true} offset={-150} duration={500}
+                    activeClass='active' to='about' spy={true} smooth={true} offset={-125} duration={500}
                     className='mobile-menu-list-item' >about</Link>
                 <Link
                     onClick={() => setshowMenu(false)}
-                    activeClass='active' to='experience' spy={true} smooth={true} offset={-150} duration={500}
+                    activeClass='active' to='experience' spy={true} smooth={true} offset={-125} duration={500}
                     className='mobile-menu-list-item'>experience</Link>
                 <Link
                     onClick={() => setshowMenu(false)}
-                    activeClass='active' to='' spy={true} smooth={true} offset={-100} duration={500}
+                    activeClass='active' to='' spy={true} smooth={true} offset={-125} duration={500}
                     className='mobile-menu-list-item'>contact</Link>
                 <Link
                     onClick={() => setshowMenu(false)}
