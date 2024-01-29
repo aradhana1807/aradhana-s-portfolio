@@ -16,3 +16,16 @@ body {
   background: #1c1918;
   color: #d9cdbf;
 }
+
+a {
+  color: your_desired_color;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #652025;
+}
+
+a:hover {
+  color: #ca3e47;
+}
