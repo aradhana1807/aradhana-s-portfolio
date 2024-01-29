@@ -9,7 +9,7 @@
 .home .cover {
   display: flex;
   flex-direction: column;
-  align-items: start;
+  align-items: flex-start;
 }
 
 .home .cover h2 {
