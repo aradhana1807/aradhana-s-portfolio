@@ -13,7 +13,7 @@ const Home = () => {
                     A curious developer on a journey to keep exploring the abundance of
                     technology realm and developing eye-catching applications.
                 </p>
-                <button>Say Hi!</button>
+                <button onClick={() => window.location.href = 'mailto:aradhana.zero@gmail.com'}>Say Hi 👋🏻</button>
             </div>
             <div class="cover-image">
                 <img src={cover_image} alt='cover' />
