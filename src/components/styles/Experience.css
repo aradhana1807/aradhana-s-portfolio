@@ -31,7 +31,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #1e1d1d;
+  background-color: #b84949;
   width: 46px;
   height: 46px;
   border-radius: 5px;
@@ -41,7 +41,7 @@
 
 .experience .experience-items .item .icon i {
   font-size: 26px;
-  color: #c75050;
+  color: #000000;
 }
 
 .experience .experience-items .item h4 {

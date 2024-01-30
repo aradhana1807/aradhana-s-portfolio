@@ -11,7 +11,7 @@ const Home = () => {
                 <h3>I <span>code</span> and <span>build</span> stuffs.</h3>
                 <p>
                     A curious developer on a journey to keep exploring the abundance of
-                    technology realm and developing eye-catching applications.
+                    technology realm and developing eye-catching applications. Currently working at Accenture as Application Development Associate.
                 </p>
                 <button onClick={() => window.location.href = 'mailto:aradhana.zero@gmail.com'}>Say Hi 👋🏻</button>
             </div>
