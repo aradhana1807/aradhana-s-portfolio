@@ -13,7 +13,13 @@ const Contact = () => {
                     </p>
                     <p>
                         Feel free to drop a message. Whether it's about anime, games or project related, I am looking forward to reply!
+                        
+                       You can have a look at my <a href='https://drive.google.com/file/d/1w3cHB4EzSkMU7jNCYEFBrDzoQDcQjDJx/view' target='_blank'
+                            rel="noreferrer">resume</a>
+                        , and find me in the social media links below.
                     </p>
+
+
                 </div>
 
                 <div className="social-links">
@@ -26,6 +32,7 @@ const Contact = () => {
                     <a href="mailto:aradhana.zero@gmail.com"
                     ><i class="bx bxl-gmail"></i
                     ></a>
+                    <a href='https://drive.google.com/file/d/1w3cHB4EzSkMU7jNCYEFBrDzoQDcQjDJx/view'><i class='bx bx-file'></i></a>
                 </div>
             </div>
         </div>
