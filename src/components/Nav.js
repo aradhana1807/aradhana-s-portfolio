@@ -10,6 +10,11 @@ const Nav = () => {
         setIsMenuOpen(prevIsMenuOpen => !prevIsMenuOpen);
     };
 
+    const openResume = () => {
+        const resumeURL = 'https://drive.google.com/file/d/1w3cHB4EzSkMU7jNCYEFBrDzoQDcQjDJx/view?usp=drive_link';
+        window.open(resumeURL, '_blank');
+    }
+
     return (
         <nav className={navClass}>
             <div className="logo">
@@ -24,7 +29,7 @@ const Nav = () => {
                 <li><a href="#contact">contact</a></li>
             </ul>
 
-            <button>Resume</button>
+            <button onClick={openResume}>Resume</button>
             <button id="menuButton" onClick={() => toggleMenu()}>
                 <i class="bx bx-menu"></i>
             </button>

@@ -41,17 +41,19 @@
 .portfolio .portfolio-items {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
+  flex-wrap: wrap;
 }
 
 .portfolio .portfolio-items .item {
   width: 30%;
-  background-color: #1f1e1e;
-  border-radius: 10px;
+  background-color: #131010;
+  margin-bottom: 20px;
+  border-radius: 20px;
   border-bottom: 4px solid transparent;
   cursor: pointer;
   box-shadow: 0 5px 32px rgba(0, 0, 0, 0.15);
-  transition: all 0.3s ease;
+  transition: all 0.5s ease-in-out;
 }
 
 .portfolio .portfolio-items .item:hover {
