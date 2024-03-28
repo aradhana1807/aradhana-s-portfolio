@@ -119,6 +119,7 @@
 }
 
 @media screen and (max-width: 576px) {
+ 
   .portfolio .header button {
     font-size: 10px;
     padding: 8px 14px;
@@ -129,6 +130,6 @@
   }
 
   .portfolio .portfolio-items .item {
-    width: 80%;
+    width: 100%;
   }
 }

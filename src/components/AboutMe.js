@@ -13,7 +13,7 @@ const AboutMe = () => {
             <div class="about-info">
                 <h3>About Me</h3>
                 <p>
-                    Hello, Aradhana here! A Computure Science and Engineering
+                    Hello, Aradhana here! Computure Science and Engineering
                     undergraduate from <strong>KiiT University, Bhubaneswar</strong>.
                 </p>
 

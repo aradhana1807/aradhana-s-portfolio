@@ -87,3 +87,10 @@
     font-size: 45px;
   }
 }
+
+@media screen and (max-width: 576px) {
+  .contact .contact-items {
+    padding: 30px;
+    margin-top: 30px;
+  }
+}

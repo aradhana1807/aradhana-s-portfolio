@@ -106,4 +106,8 @@
   .home .cover button {
     width: 100%;
   }
+
+  .home .cover-image img {
+    width: 270px;
+  }
 }

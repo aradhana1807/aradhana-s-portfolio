@@ -53,3 +53,9 @@
     padding: 85px 42px;
   }
 }
+
+@media screen and (max-width: 576px) {
+  .about .about-image img {
+    width: 200px;
+  }
+}
